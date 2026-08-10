@@ -1,0 +1,18 @@
+{
+  "name": "showapi-mcp-server",
+  "version": "1.0.0",
+  "description": "易源(ShowAPI) 快递查询 + 个人生活服务 MCP Server (Streamable HTTP)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
